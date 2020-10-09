@@ -1,0 +1,59 @@
+.contacts {
+  padding-top: 48px;
+  padding-left: 30px;
+  color: white;
+}
+.contactsHead {
+  display: flex;
+  padding-left: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 25px;
+  font-weight: 700;
+  border-top: 3px solid white;
+  border-bottom: 3px solid white;
+}
+
+.text {
+  width: 400px;
+}
+
+.text:nth-child(2) {
+  margin-left: 10px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 50px);
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.item:not(:last-child) {
+  padding-bottom: 15px;
+}
+
+.enter {
+  opacity: 0.1;
+  transform: translateX(-100%);
+}
+.enterActive {
+  opacity: 1;
+  transform: translateX(0);
+  transition: all 250ms linear;
+}
+.exit {
+  opacity: 1;
+  transform: translateX(0);
+}
+.exitActive {
+  opacity: 0.1;
+  transform: translateX(100%);
+  transition: all 250ms linear;
+}

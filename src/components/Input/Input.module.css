@@ -1,0 +1,17 @@
+.input {
+  width: 360px;
+  height: 45px;
+  padding-left: 20px;
+  font-size: 18px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  color: black;
+  box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.31),
+    inset 0px 5px 5px 0px rgba(38, 45, 51, 0.12);
+}
+
+.input:focus {
+  box-shadow: 0px 0px 3px 1px #5aa1db;
+}
